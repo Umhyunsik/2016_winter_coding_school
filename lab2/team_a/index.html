@@ -1,10 +1,243 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" type="text/css"
+          href="homwork_css.css">
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>GitHub</title>
+
 </head>
+<style>
+    header {background-color: #e9e9e9;
+        padding:1px;
+        padding-bottom:3px;
+        float:top;
+        margin-bottom: 20px;
+        text-align: center;
+        word-spacing:20px;
+        font-weight:bold;
+        font-family:octicons;
+    }
+
+    #space{border:1px solid gray;
+        border-radius: 5px;
+        padding:3px;
+        background-color: white;
+        margin-right:30px;
+    }
+    #box1{border: 1px solid gray;
+    }
+    #box2{
+
+    }
+    #bar{
+        border-radius:2px;
+        word-spacing:0px;
+        font-weight:normal;
+        text-align: center;
+        background-color: lightgray;
+    }
+
+    #search{background-color:white;
+        word-spacing:200px;
+        color:darkgray;
+    }
+
+    #up{border:0.5px solid #008d00;
+        border-radius:3px;
+        padding:10px;
+        background-image: linear-gradient(to bottom, #0ec505, #008d00);
+        color:white;
+        word-spacing:0px;
+        margin-left:80px;
+    }
+
+    #in{border: 0.5px solid #a9a9a9;
+        border-radius:3px;
+        padding:10px;
+        word-spacing:0px;
+        background-image: linear-gradient(to bottom, #f2f2f2, #e0e0e0);
+
+    }
+    body{margin:0px}
+
+    ul li {display:inline;}
+    section.main li {display:inline;}
+    footer li{display:inline;}
+
+
+    div{float:left;
+        margin-left:250px;
+        padding:0px;
+        border:1px solid black;
+        margin-right:250px;
+
+    }
+    section.main{float:left;
+        border:1px dotted red;
+        width:850px;}
+
+    mainheader.main-header{border: 2px dotted yellow;
+        font-size:170%;
+    }
+
+    section.table1{
+        border:1px solid blue;
+        width:850px;
+    }
+    section.table2{border:1px solid blue;
+        width:850px;
+    }
+
+    aside{margin-left:852px;
+        margin-right:100px;
+        border:1px;
+    }
+
+    footer{text-align: center}
+</style>
 <body>
 
+<header>
+    <ul>
+        <li><image src="GitHub-Logo.png" width="120" height="35" ></li>
+        <d id="space"><li id="bar"> This repository <bar id="search">　Search </bar></li></d>
+        <li>Explore</li>
+        <li>Features</li>
+        <li>Enterprise</li>
+        <li>Pricing</li>
+        <li id="up">Sign up</li>
+        <li id="in">Sign In</li>
+    </ul>
+</header>
+
+<div>
+    <section class="main">
+        <mainheader class="main-header">
+            <li>KnowRe</li>
+            <li>/</li>
+            <li>WebDevCurriculum</li>
+            <li><a href="#">Watch</a></li>
+            <li><a href="#">Star</a></li>
+            <li><a href="#">Fork</a></li>
+        </mainheader>
+
+        <section class="main-detail">
+            <p>KnowRe web development curriculum for noobs</p>
+
+            <info>
+                <li><a href="#">26 commits</a></li>
+                <li><a href="#">2 branches</a></li>
+                <li><a href="#">0 releases</a></li>
+                <li><a href="#">1 contributes</a></li>
+            </info>
+
+            <p>
+                초록색
+                <button >Branch :2016 (단추)</button>
+                <a href ="#">WebDevCurriculum</a>
+                /
+                +
+                <button>아이콘</button>
+            </p>
+
+            <p>
+            <li>This branch is 5 commits ahead of master.</li>
+            <li>Pull request</li>
+            <li>Compare</li>
+
+
+
+            <section class="table1">
+                <table>
+                    <tr>
+                        <td>...</td>
+                    </tr>
+                    <tr>
+                        <td>Kivol authored 19 hours ago</td>
+                        <td></td>
+                        <td>latest commit 5ead7a7a36 (아이콘)</td>
+                    </tr>
+                    <tr>
+                        <td>Part 0, git/<a href="#">Quest 0. Hello, git</a> </td>
+                        <td>Quest 0 -Added checklist</td>
+                        <td>19 hours ago</td>
+                    </tr>
+                    <tr>
+                        <td><a href="#">old</a> </td>
+                        <td>New curriculum 2016 - started</td>
+                        <td>5 days ago</td>
+                    </tr>
+                    <tr>
+                        <td><a href="#">LICENSE</a> </td>
+                        <td>New curriculum 2016 - started</td>
+                        <td>5 days ago</td>
+                    </tr>
+                    <tr>
+                        <td><a href="#">README.md</a> </td>
+                        <td>...</td>
+                        <td>19 hours ago</td>
+                    </tr>
+                </table>
+            </section>
+
+            <section class="table2">
+                <table>
+                    <tr>
+                        <td>
+                            README.md
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            KnowRe web development curriculum 2016
+                        </td>
+                    </tr>
+                </table>
+            </section>
+        </section>
+    </section>
+
+    <aside>
+        <section class="code_box">
+            <li><a href="#"><>Code</a> </li>
+        <section calss="box1">
+            <li><a href="#">Issues</a> <button>0</button></li>
+            <li><a href="#">Pull requests</a> <button>0</button></li>
+        </section>
+
+        <section class="box2">
+            <li><a href="#">Pulse</a> </li>
+            <li><a href="#">Graphs</a> </li>
+        </section>
+
+        <section class="buttom">
+            HTTPS clone URL
+            <li>https://github.com<button>아이콘</button></box></li>
+            You can clone with <a href="#">HTTPS</a> or <a href="#">Subversion</a>. 물음표
+            <li><button>Clone in Desktop</button></li>
+            <li><button>Dowload ZIP</button></li>
+        </section>
+
+    </aside>
+</div>
+
+
+<footer>
+    <li>2015 GitHub. Inc.</li>
+    <li><a href="#">Terms</a></li>
+    <li><a href="#">Privacy</a></li>
+    <li><a href="#">Security</a></li>
+    <li><a href="#">Contact</a></li>
+    <li><a href="#">Help</a></li>
+    <image src="cat.png" width="50" height="30" >
+        <li><a href="#">Status</a></li>
+        <li><a href="#">API</a></li>
+        <li><a href="#">Training</a></li>
+        <li><a href="#">Shop</a></li>
+        <li><a href="#">Blog</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Pricing</a></li>
+</footer>
 </body>
 </html>
