@@ -68,6 +68,7 @@
 			height:30px;
 			text-align:left;
 			color:black;
+			display: inline;
 		}
 
 
@@ -144,6 +145,56 @@
 			clear: both;
 			text-align:center;}
 		li{display:inline; }
+
+		main-header
+		{ background-color: 255;
+		}
+		#px
+		{font-size:30px;}
+		#left_header{
+			margin:20px 0px 20px 0px;
+			font-size:20px;
+			color: #888;
+		}
+		.left_layout{
+			float:left;
+		}
+		.right-layout{
+			float:right;
+		}
+		.a_style{
+			text-decoration:none;
+		}
+		.margin_right{
+			margin-right:15px;
+		}
+		.main_floating_left{
+			width:80%;
+		}
+		#statue_div{
+			height:41px;
+			position:relative;
+			border:1px solid #ddd;
+			border-radius:3px 3px 0 0;
+			border-bottom:0px;
+			margin-bottom:0;
+		}
+		#statue_ul{
+			display:table;
+			table-layout: fixed;
+			list-style-type: disc;
+			padding-left:0;
+			margin-top:0;
+			margin-bottom:0;
+			width:100%;
+		}
+		#statue_ul li{
+			display:table-cell;
+			padding:10px;
+			text-align:center;
+			white-space:nowrap;
+		}
+
 	</style>
 </head>
 <body>
@@ -171,28 +222,37 @@
 	<!--콘텐츠부분-->
 	<section>
 		<!--국민지??????-->
-		<div class="one">KnowRe web development curriculum for noobs
+		<div class="one"><img src="book.svg"width="30">KnowRe web development curriculum for noobs
+			<button id="Watch"><type="button">Watch  20</button>
+			<button id="Star"><type="button">Star   47</button>
+			<button id="Fork"><type="button">Fork  6</button>
 		</div>
 		<div class="two">
 			<li>26commits</li>
 			<li>2branches</li>
 			<li>0releases</li>
 			<li>1contributor</li>
+
 		</div>
 		<div class="three">
-			<input type="" value="Branch:2016">
+			<select name="branch">
+				<option value="2016">Branch:2016</option>
+				<option value="1">1</option>
+				<option value="2">2</option>
+			</select>
 			<li><font color="blue">WebDevCurriculum</font></li>
+
 		</div>
 
 		<table class="gre">
 			<tr>
-				<td colspan="3">&nbspThis branch is 5 commits ahead of master.<div class="line">Pull request&nbsp; &nbsp; &nbsp; Compare</div></td>
+				<td colspan="3">&nbspThis branch is 5 commits ahead of master.<div class="line"><img src="git-pull-request.svg">Pull request&nbsp; &nbsp; &nbsp; <img src="diff.svg">Compare</div></td>
 			</tr>
 			<tr>
 				<td colspan="3"><div class="white">&nbsp...</div></td>
 			</tr>
 			<tr>
-				<td colspan="3">&nbsp<img src="graph.svg" >&nbspKivol authored 19 hours ago&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; latest commit 5ead7a7a36</td>
+				<td colspan="3">&nbsp<img src="graph.svg" >&nbspKivol authored 19 hours ago&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; latest commit 5ead7a7a36&nbsp;<img src="clippy.svg"></td>
 			</tr>
 			<tr>
 				<td colspan="3"><div class="other">&nbsp<img src="file-directory.svg" >&nbspPart 0. git/Quest 0. Hello, git Quest 0 - Added chescklist 19 hours ago</div></td>
