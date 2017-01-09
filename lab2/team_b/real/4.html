@@ -15,6 +15,7 @@
 			text-align: left;
 			min-height: 300px;
 			margin: 0 auto;
+
 		}
 		header,  aside, section {
 			border: 1px solid #999;
@@ -26,7 +27,7 @@
 		footer {border-style:ridge none none none;}
 
 		header {
-
+			width: 30px;
 			height: 30px;
 			color:black;
 
@@ -35,22 +36,39 @@
 
 
 			background-color: rgb(200,200,200);
+			display: inline;
 		}
 		section, aside {
 			float: left;
 			height: 400px;
 		}
 
-		section{
 
-			color: black;
-			background-color: ;
-			width: 70%;
 
-			text-align:center}
-		div.one{width:100%;
+		table.gre {
+			background-color: #dcdcdc;
+			font-size: small;
+			color:#969696;
+			border="1";
+			width: 491px;
+			border-collapse: collapse;
+		}
+		.white {
+			background-color: #BEEFFF;
+		}
+		.other {
+			background-color: white;
+			color:blue;
+
+		}
+		.line {
+			text-align:right;
+		}
+		div.one{width:70%;
 			height:30px;
 			text-align:left;
+			color:black;
+			display: inline;
 		}
 
 
@@ -58,23 +76,55 @@
 		div.two{width:100%;
 			height:30px;
 			text-align:center;
+			color:black;
 
 			border: 5px rgb(255,255,0);
 			border-style:ridge ridge solid ridge}
 		div.three{width:100%;
 			height:30px
 		;}
+		.button {
+			background-color: #4CAF50;
+		border-style: none;
+			color: white;
+			border-radius:5px;
+
+			text-align: center;
+			text-decoration: none;
+			display: inline-block;
+			font-size: 15px;
+
+			cursor: pointer;
+		}
+		#bu{
+			background-color:white;
+			border-style: none;
+			border-radius:5px;
+			color:black;
+			cursor: pointer;
+			font-size: 15px;
 
 
-		div.oneone{background-color:gray;
+		}
+		#oneone{background-color:gray;
 			width:150px;
 		margin-left :30px}
 
-		.verse{background-color:gray;
+		#verse{background-color:gray;
 		clear: right}
 
 
-
+		table.twoo{
+			color:black;
+			border:1px solid #aaaaaa;
+			border-collapse:collapse;
+			font-size: small;
+			width: 491px;
+			height: 148px;
+		}
+		.big {
+			font-size: x-large;
+		}
 
 
 
@@ -91,10 +141,60 @@
 			height: 50px;
 			background-color: white;
 			color:blue;
-			position: relatiev;
+
 			clear: both;
 			text-align:center;}
 		li{display:inline; }
+
+		main-header
+		{ background-color: 255;
+		}
+		#px
+		{font-size:30px;}
+		#left_header{
+			margin:20px 0px 20px 0px;
+			font-size:20px;
+			color: #888;
+		}
+		.left_layout{
+			float:left;
+		}
+		.right-layout{
+			float:right;
+		}
+		.a_style{
+			text-decoration:none;
+		}
+		.margin_right{
+			margin-right:15px;
+		}
+		.main_floating_left{
+			width:80%;
+		}
+		#statue_div{
+			height:41px;
+			position:relative;
+			border:1px solid #ddd;
+			border-radius:3px 3px 0 0;
+			border-bottom:0px;
+			margin-bottom:0;
+		}
+		#statue_ul{
+			display:table;
+			table-layout: fixed;
+			list-style-type: disc;
+			padding-left:0;
+			margin-top:0;
+			margin-bottom:0;
+			width:100%;
+		}
+		#statue_ul li{
+			display:table-cell;
+			padding:10px;
+			text-align:center;
+			white-space:nowrap;
+		}
+
 	</style>
 </head>
 <body>
@@ -102,7 +202,7 @@
 	<!--헤더시작-->
 	<header>
 
-		<img src="logo-github.svg" alt="git" width="100" >
+		<img src="logo-github.svg" alt="git" width="60" >
 
 			This repository
 			<input type="" value="SEARCH" >
@@ -114,17 +214,74 @@
 		<li>Enterpirse</li>
 		<li>Pricing</li>
 
-			<button  >sign up</button>
-		<button>sign in </button>
+			<button class="button">sign up</button>
+		<button id="bu">sign in </button>
 
 
 	</header>
 	<!--콘텐츠부분-->
 	<section>
+		<!--국민지??????-->
+		<div class="one"><img src="book.svg"width="30">KnowRe web development curriculum for noobs
+			<button id="Watch"><type="button">Watch  20</button>
+			<button id="Star"><type="button">Star   47</button>
+			<button id="Fork"><type="button">Fork  6</button>
+		</div>
+		<div class="two">
+			<li>26commits</li>
+			<li>2branches</li>
+			<li>0releases</li>
+			<li>1contributor</li>
+
+		</div>
+		<div class="three">
+			<select name="branch">
+				<option value="2016">Branch:2016</option>
+				<option value="1">1</option>
+				<option value="2">2</option>
+			</select>
+			<li><font color="blue">WebDevCurriculum</font></li>
+
+		</div>
+
+		<table class="gre">
+			<tr>
+				<td colspan="3">&nbspThis branch is 5 commits ahead of master.<div class="line"><img src="git-pull-request.svg">Pull request&nbsp; &nbsp; &nbsp; <img src="diff.svg">Compare</div></td>
+			</tr>
+			<tr>
+				<td colspan="3"><div class="white">&nbsp...</div></td>
+			</tr>
+			<tr>
+				<td colspan="3">&nbsp<img src="graph.svg" >&nbspKivol authored 19 hours ago&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; latest commit 5ead7a7a36&nbsp;<img src="clippy.svg"></td>
+			</tr>
+			<tr>
+				<td colspan="3"><div class="other">&nbsp<img src="file-directory.svg" >&nbspPart 0. git/Quest 0. Hello, git Quest 0 - Added chescklist 19 hours ago</div></td>
+			</tr>
+			<tr>
+				<td colspan="3"><div class="other">&nbsp<img src="file-directory.svg" >&nbspold New curriculum 2016 - started 5 days ago</div></td>
+			</tr>
+			<tr>
+				<td>&nbsp<img src="file.svg" >&nbspLICENSE New curriculum 2016 - started 5 days ago</td><td></td><td></td>
+			</tr>
+			<tr>
+				<td colspan="3"><div class="other">&nbsp<img src="file.svg" >&nbspREADME.md ... 19 hours ago</div></td>
+			</tr>
+		</table>
+		<table class="twoo" border="1px">
+			<tr>
+				<td>&nbsp<img src="book.svg">&nbsp;<b>README.md</b></td>
+			</tr>
+			<tr>
+				<td><div class="big">&nbsp<b>KnowRe web development curriculum<br>&nbsp2016</b></div></td>
+			</tr>
+		</table>
+
 
 
 	</section>
 	<!--사이드바-->
+
+
 	<aside>
 
 		<div id="five"> <b><>Code</b>
@@ -136,10 +293,17 @@
 		<b>HTTPS</b> clone URL
 		<div class="ten"><img src ="last.png" width="170">
 			<font size=2><p>You can clone with <font color = "blue">HTTPS</font> or <font color = "blue">Subversion</font>.
-				<div class="oneone">
-					<img src="desktop-download.svg" ><b>Clone in Desktop</b>
-					<div class="verse">
-						<img src="cloud-download.svg"><b>Download ZIP</b>
+				<table align="center">
+					<tr>
+						<td><button type="button"   value= "sion" style="width :150px;" ><img src = "desktop-download.svg"><b>Clone in Desktop</b></button>
+						</td>
+					</tr>
+				<tr>
+					<td><button type="button" value="down"  style="width :150px;"> <img src = "cloud-download.svg">  <b>Download    ZIP</b></button>
+					</td>
+				</tr>
+
+			</table>
 
 
 
