@@ -2,13 +2,15 @@
 
 header {background-color: #e9e9e9;
     padding:1px;
-    padding-bottom:3px;
+    padding-bottom:10px;
     float:top;
     margin-bottom:20px;
     text-align: center;
     word-spacing:20px;
     font-weight:bold;
+    border: 1px solid black;
 }
+
 
 #space{border:1px solid gray;
     border-radius: 5px;
@@ -86,20 +88,26 @@ mainheader{
     margin-right:300px;
 }
 
+<!--예훈-->
+
 mainbox li{
     border:1px solid gray;
     border-radius:2px;
     background-color:lightgray;
     padding:3px;
     font-size:50%;
+    margin-left:0px;
+    margin-right:0px;
 }
 #num{
     background-color:white;
     margin-left:0px;
 }
-box1 {
 
-}
+<!--예훈-->
+
+<!--지희-->
+
 section.table1{
     border:1px solid blue;
     width:700px;
@@ -107,6 +115,7 @@ section.table1{
 section.table2{border:1px solid blue;
     width:700px;
 }
+<!--지희-->
 
 aside{margin-left:710px;
     border:1px;
