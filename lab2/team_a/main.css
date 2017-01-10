@@ -48,7 +48,7 @@ header {background-color: #e9e9e9;
     background-image: linear-gradient(to bottom, #f2f2f2, #e0e0e0);
 
 }
-{!---------------------------------↑위에는_헤더----------------------------------------}
+/*---------------------------------↑위에는_헤더----------------------------------------*/
 
 body{margin:0px;
     font-family:octicons;
@@ -58,6 +58,7 @@ ul li {display:inline;}
 mainheader li{display:inline;}
 section.main li {display:inline;}
 footer li{display:inline;}
+.main-detail{color: #4b4b4b;}
 
 
 div{
@@ -72,12 +73,18 @@ section.main{float:left;
     width:700px;
 }
 
+/*예훈*/
+
 mainheader{
     font-size:170%;
     margin-left:200px;
     margin-right:200px;
-
 }
+hr{
+    border-top:0.3px solid lightgray;
+    border-bottom: 0px;
+}
+
 #k{
     color: #1275ff;
 }
@@ -88,7 +95,6 @@ mainheader{
     margin-right:300px;
 }
 
-<!--예훈-->
 
 mainbox li{
     border:1px solid gray;
@@ -96,17 +102,80 @@ mainbox li{
     background-color:lightgray;
     padding:3px;
     font-size:50%;
-    margin-left:0px;
+    font-weight:bold;
+    margin-right:-10px;
+}
+.num{
+    background-color:white;
     margin-right:0px;
 }
-#num{
-    background-color:white;
-    margin-left:0px;
+
+#info{
+    border:1px solid gray;
+    border-bottom: 5px solid #f3db08;
+    width:700px;
+    margin-left: 0px;
+
 }
 
-<!--예훈-->
+#info li{
+    margin-left:40px;
+    margin-right:40px;
+}
 
-<!--지희-->
+.b{
+    font-weight:bold;
+}
+
+p span{
+    color:#4b4b4b;
+    font-size:150%;
+}
+
+
+span#button{
+    color:white;
+    border:1px solid #008000;
+    border-radius:3px;
+    padding:3px;
+    background-color:#008000;
+    font-size:100%;
+}
+
+
+span#branch{
+    border:1px solid gray;
+    padding:3px;
+    padding-right:7px;
+    padding-left:7px;
+    border-radius:3px;
+    background-image: linear-gradient(to bottom, white, #d5d5d5);
+    font-size:100%;
+}
+
+a#button{
+    color: #696969;
+    font-size:90%;
+}
+
+a#year{
+    font-weight:bold;
+    font-size:90%;
+}
+
+span#blue{
+    font-size:150%;
+    color:#1275ff;
+    font-weight:bold;
+}
+
+span#icon{
+    margin-left:220px;
+}
+
+/*예훈*/
+
+/*지희*/
 
 section.table1{
     border:1px solid blue;
@@ -115,7 +184,7 @@ section.table1{
 section.table2{border:1px solid blue;
     width:700px;
 }
-<!--지희-->
+/*지희*/
 
 aside{margin-left:710px;
     border:1px;
