@@ -2,15 +2,14 @@
 
 header {background-color: #e9e9e9;
     padding:1px;
-    padding-bottom:3px;
+    padding-bottom:10px;
     float:top;
-    margin-bottom: 20px;
-    text-align: center;
+    margin-bottom:20px;
     word-spacing:20px;
     font-weight:bold;
-    font-family:octicons;
-
+    border: 1px solid black;
 }
+
 
 #space{border:1px solid gray;
     border-radius: 5px;
@@ -28,7 +27,7 @@ header {background-color: #e9e9e9;
 }
 
 #search{background-color:white;
-    word-spacing:200px;
+    word-spacing:100px;
     color:darkgray;
 }
 
@@ -48,6 +47,9 @@ header {background-color: #e9e9e9;
     background-image: linear-gradient(to bottom, #f2f2f2, #e0e0e0);
 
 }
+
+
+
 body{margin:0px;
     font-family:octicons;
 }
@@ -58,21 +60,22 @@ section.main li {display:inline;}
 footer li{display:inline;}
 
 
-div{float:left;
-    margin-left:250px;
+div{
+    margin-left:200px;
     padding:0px;
     border:1px solid black;
-    margin-right:250px;
-
+    font-size:90%;
+    width:900px;
 }
 section.main{float:left;
     border:1px dotted red;
-    width:850px;}
+    width:700px;
+}
 
 mainheader{
     font-size:170%;
-    margin-left:250px;
-    margin-right:250px;
+    margin-left:200px;
+    margin-right:200px;
 
 }
 #k{
@@ -82,8 +85,10 @@ mainheader{
 #web{
     color:#1275ff;
     font-weight:bold;
-    margin-right:620px;
+    margin-right:300px;
 }
+
+<!--예훈-->
 
 mainbox li{
     border:1px solid gray;
@@ -91,25 +96,31 @@ mainbox li{
     background-color:lightgray;
     padding:3px;
     font-size:50%;
-    margin-left:0px;
-    margin-right:0px;
 }
 #num{
     background-color:white;
     margin-left:0px;
 }
 
+<!--예훈-->
+
+<!--지희-->
+
 section.table1{
     border:1px solid blue;
-    width:850px;
+    width:700px;
 }
 section.table2{border:1px solid blue;
-    width:850px;
+    width:700px;
 }
+<!--지희-->
 
-aside{margin-left:852px;
-    margin-right:100px;
+aside{margin-left:710px;
     border:1px;
+
 }
 
-footer{text-align: center}
+footer{text-align: center;
+    float:bottom;
+    margin-top:200px;
+}
