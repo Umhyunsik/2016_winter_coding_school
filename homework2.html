@@ -1,0 +1,291 @@
+﻿<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>HTML5</title>
+	<style type="text/css">
+		body {
+			text-align: center;
+			color: #FFF;
+			width: 900px;
+		}
+		div#wapper {
+			width: 100%;
+			text-align: left;
+			min-height: 300px;
+			margin: 0 auto;
+		}
+		header,  aside, section {
+			border: 1px solid #999;
+
+			margin: 5px;
+			padding: 10px;
+		}
+
+    main-header
+		{ background-color: 255;
+	  }
+
+    #px
+		{font-size:30px;}
+
+		#left_header{
+		    margin:20px 0px 20px 0px;
+		    font-size:20px;
+		    color: #888;
+		}
+
+	.left_layout{
+	    float:left;
+	}
+	.right-layout{
+	    float:right;
+	}
+	.a_style{
+	    text-decoration:none;
+	}
+	.margin_right{
+	    margin-right:15px;
+	}
+	.main_floating_left{
+	    width:80%;
+	}
+
+	#statue_div{
+	    height:41px;
+	    position:relative;
+	    border:1px solid #ddd;
+	    border-radius:3px 3px 0 0;
+	    border-bottom:0px;
+	    margin-bottom:0;
+	}
+	#statue_ul{
+	    display:table;
+	    table-layout: fixed;
+	    list-style-type: disc;
+	    padding-left:0;
+	    margin-top:0;
+	    margin-bottom:0;
+	    width:100%;
+	}
+	#statue_ul li{
+	    display:table-cell;
+	    padding:10px;
+	    text-align:center;
+	    white-space:nowrap;
+	}
+
+
+		header {
+
+			height: 30px;
+			color:black;
+
+			top:50px;
+			margin-bottom:10px;
+
+
+			background-color: rgb(200,200,200);
+		}
+		section, aside {
+			float: left;
+			height: 400px;
+		}
+
+		section{
+
+			color: black;
+			background-color: ;
+			width: 70%;
+
+			text-align:center}
+		div.one{width:100%;
+			height:30px;
+			text-align:left;
+		}
+
+
+
+		div.two{width:100%;
+			height:30px;
+			text-align:center;
+
+			border: 5px rgb(255,255,0);
+			border-style:ridge ridge solid ridge}
+		div.three{width:100%;
+			height:30px
+		;}
+
+
+		div.oneone{background-color:gray;
+			width:150px;
+		margin-left :30px}
+
+		.verse{background-color:gray;
+		clear: right}
+
+
+
+
+
+
+		aside {
+			background-color: white;
+			color:black;
+
+			width: 22%;
+			border-style:none}
+
+
+		footer {
+			padding:10px;
+			height: 50px;
+			background-color: white;
+			color:blue;
+			position: relatiev;
+			clear: both;
+			text-align:center;}
+		li{display:inline; }
+	</style>
+</head>
+<body>
+<div id="wapper">
+
+	<!--헤더시작-->
+	<header>
+
+		<img src="logo-github.svg" alt="git" width="100" >
+
+			This repository
+			<input type="" value="SEARCH" >
+
+
+
+		<li>Explore</li>
+		<li>Features</li>
+		<li>Enterpirse</li>
+		<li>Pricing</li>
+
+			<button  >sign up</button>
+		<button>sign in </button>
+
+
+	</header>
+
+	<!--메인헤더-->
+	<main-header class="main-header">
+	  <img src="main header.jpg"width="30">
+			<span id=px><font color="#42A5F5"> KnowRe</font><span style="color:black">/</span><font color="#42A5F5"><strong>WebdevCurriculum</font></strong></span>
+
+
+		<span2><button id="Watch"><type="button">Watch  20</button>
+	  <button id="Star"><type="button">Star   47</button>
+	  <button id="Fork"><type="button">Fork  6</button></span2>
+
+</main-header>
+
+	<!--콘텐츠부분-->
+	<section>
+		<div class="left_layout main_floating_left font_size">
+			<div id="left_header">KnowRe web development curriculum for noobs</div>
+			<div id="statue_div">
+				<ul id="statue_ul">
+					<li>
+						<span>
+							<svg class="svg_style svg_color_gray" viewBox="0 0 16 16" height="16" width="14">
+								<path d="M8 13H6V6h5v2H8v5zM7 1C4.81 1 2.87 2.02 1.59 3.59L0 2v4h4L2.5
+								 4.5C3.55 3.17 5.17 2.3 7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71
+									5.71 0 0 1 1.3 8c0-.34.03-.67.09-1H.08C.03 7.33 0 7.66 0 8c0 3.86 3.14 7
+									 7 7s7-3.14 7-7-3.14-7-7-7z"></path>
+							</svg>
+							<strong>26</strong> commits
+						</span>
+					</li>
+					<li>
+						<span>
+							<svg class="svg_style svg_color_gray" viewBox="0 0 16 16" height="16" width="14">
+								<path d="M10 5c0-1.11-.89-2-2-2a1.993 1.993 0 0 0-1 3.72v.3c-.02.52-.23.98-.63
+								 1.38-.4.4-.86.61-1.38.63-.83.02-1.48.16-2 .45V4.72a1.993 1.993 0 0 0-1-3.72C.88
+									1 0 1.89 0 3a2 2 0 0 0 1 1.72v6.56c-.59.35-1 .99-1 1.72 0 1.11.89 2 2 2 1.11
+									 0 2-.89 2-2 0-.53-.2-1-.53-1.36.09-.06.48-.41.59-.47.25-.11.56-.17.94-.17
+										1.05-.05 1.95-.45 2.75-1.25S8.95 7.77 9 6.73h-.02C9.59 6.37 10 5.73 10 5zM2
+										 1.8c.66 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2C1.35 4.2.8 3.65.8
+											3c0-.65.55-1.2 1.2-1.2zm0 12.41c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2
+											 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm6-8c-.66
+												0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2
+												 0 .65-.55 1.2-1.2 1.2z"></path>
+							</svg>
+							<strong>2</strong> branches
+						</span>
+					</li>
+					<li>
+						<span>
+							<svg class="svg_style svg_color_gray" viewBox="0 0 16 16" height="16" width="14">
+								<path d="M7.73 1.73C7.26 1.26 6.62 1 5.96 1H3.5C2.13 1 1 2.13 1 3.5v2.47c0
+								 .66.27 1.3.73 1.77l6.06 6.06c.39.39 1.02.39 1.41 0l4.59-4.59a.996.996 0 0
+									0 0-1.41L7.73 1.73zM2.38 7.09c-.31-.3-.47-.7-.47-1.13V3.5c0-.88.72-1.59
+									 1.59-1.59h2.47c.42 0 .83.16 1.13.47l6.14 6.13-4.73 4.73-6.13-6.15zM3.01
+										3h2v2H3V3h.01z"></path>
+							</svg>
+							<strong>0</strong> releases
+						</span>
+					</li>
+					<li>
+						<span>
+							<svg class="svg_style svg_color_gray" viewBox="0 0 16 16" height="16" width="14">
+								<path d="M16 12.999c0 .439-.45 1-1 1H7.995c-.539 0-.994-.447-.995-.999H1c-.54
+								 0-1-.561-1-1 0-2.634 3-4 3-4s.229-.409 0-1c-.841-.621-1.058-.59-1-3
+									.058-2.419 1.367-3 2.5-3s2.442.58 2.5 3c.058 2.41-.159 2.379-1 3-.229.59
+									 0 1 0 1s1.549.711 2.42 2.088C9.196 9.369 10 8.999 10 8.999s.229-.409
+										0-1c-.841-.62-1.058-.59-1-3 .058-2.419 1.367-3 2.5-3s2.437.581 2.495
+										 3c.059 2.41-.158 2.38-1 3-.229.59 0 1 0 1s3.005 1.366 3.005 4"></path>
+							</svg>
+							<strong>1</strong> contributor
+						</span>
+					</li>
+				</ul>
+			</div>
+	</section>
+	<!--사이드바-->
+	<aside>
+
+		<div id="five"> <b><>Code</b>
+		<div class="six"> <img src ="info.svg"><font color ="blue"> Issues</font>
+		<div class="seven"><img src ="git-pull-request.svg"><font color ="blue">Pull requests</font>
+		<div class="eight"><img src ="pulse.svg"><font color ="blue">Pulse</font>
+		<div class="nine"><img src ="graph.svg"><font color ="blue">Graphs</font></div><br><br>
+
+		<b>HTTPS</b> clone URL
+		<div class="ten"><img src ="last.png" width="170">
+			<font size=2><p>You can clone with <font color = "blue">HTTPS</font> or <font color = "blue">Subversion</font>.
+				<div class="oneone">
+					<img src="desktop-download.svg" ><b>Clone in Desktop</b>
+					<div class="verse">
+						<img src="cloud-download.svg"><b>Download ZIP</b>
+
+
+
+	</aside>
+	<!--풋터-->
+	<footer>
+
+		<li><font color="black">@2015GitHub,inc.</font></li>
+		<li>Terms</li>
+		<li>Privacy</li>
+		<li>Security</li>
+		<li>Contact</li>
+		<li>Help</li>
+		<img src="mark-github.svg">
+		<li>Status</li>
+		<li>API</li>
+		<li>Training</li>
+		<li>Shop </li>
+		<li>Blog</li>
+		<li>About</li>
+		<li>Pricing </li>
+
+	</footer>
+</div>
+</body>
+</html>

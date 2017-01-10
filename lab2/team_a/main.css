@@ -5,6 +5,7 @@ header {background-color: #e9e9e9;
     padding-bottom:10px;
     float:top;
     margin-bottom:20px;
+    text-align: center;
     word-spacing:20px;
     font-weight:bold;
     border: 1px solid black;
@@ -47,8 +48,7 @@ header {background-color: #e9e9e9;
     background-image: linear-gradient(to bottom, #f2f2f2, #e0e0e0);
 
 }
-
-
+{!---------------------------------↑위에는_헤더----------------------------------------}
 
 body{margin:0px;
     font-family:octicons;
@@ -96,6 +96,8 @@ mainbox li{
     background-color:lightgray;
     padding:3px;
     font-size:50%;
+    margin-left:0px;
+    margin-right:0px;
 }
 #num{
     background-color:white;
