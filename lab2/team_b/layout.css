@@ -56,8 +56,16 @@ section{
 
     text-align:center}
 
+.six { border:1px ridge #d9d9d9;
+    border-right: none;
+}
+.eight { border:1px solid #d9d9d9;
+    border-right:none;}
+#five { border:1px solid #d9d9d9;
+    border-right-color :saddlebrown;
 
-
+    border-radius:5px;
+    }
 
 div.oneone{background-color:gray;
     width:150px;
@@ -65,8 +73,7 @@ div.oneone{background-color:gray;
 
 .verse{background-color:gray;
     clear: right}
-
-
+.oneblock{display:inline-table;}
 
 
 
@@ -74,7 +81,7 @@ div.oneone{background-color:gray;
 aside {
     background-color: white;
     color:black;
-    width: 200px;
+    width: 225px;
     float:right;
 
     margin-right: 200px;
