@@ -118,7 +118,12 @@ mainbox li{
     background-color:white;
     margin-right:0px;
 }
-
+/*지희*/
+section.table1 {
+    border: 1px solid blue;
+    width: 700px;
+    border-collapse: collapse;
+}
 
 hr{
     border-top:0.3px solid lightgray;
@@ -219,13 +224,23 @@ section.table1 {
     background-color:lightgray;
     height:20px;}
 
+
+.table1 table tr.dot{
+    background-color:lightblue;
+
+}
+.table1 table tr.kivol_class{
+    background-color:lightgray;
+    height:20px;
+
+}
+
 #read{
     background-color: #dddddd;
     border:1px solid #b0b0b0;
 }
 #lastbox{
     font-size: 200%;
-
 }
 
 
