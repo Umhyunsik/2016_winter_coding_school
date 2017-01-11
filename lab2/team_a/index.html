@@ -29,15 +29,15 @@
 </header>
 
 <mainheader class="main-header">
-    <li id="k">KnowRe</li>
+    <image id="k" src="repo.svg" width="20" height="30" align="center"/><li id="k">KnowRe</li>
     <li>/</li>
     <li id="web">WebDevCurriculum</li>
     <mainbox>
-        <li>Watch</li>
+        <li><image src="eye.svg" align="center"/>Watch</li>
         <li class="num">20</li>
-        <li>Star</li>
+        <li><image src="star.svg" align="center"/>Star</li>
         <li class="num">47</li>
-        <li>Fork</li>
+        <li><image src="repo-forked.svg" align="center"/>Fork</li>
         <li class="num">6</li>
     </mainbox>
 </mainheader>
@@ -50,57 +50,60 @@
 
             <div id="info">
                 <ul>
-                    <li><a class="b">26</a> commits</li>
-                    <li><a class="b">2</a> branches</li>
-                    <li><a class="b">0</a> releases</li>
-                    <li><a class="b">1</a> contributes</li>
+                    <li><image src="history.svg" align="center"/> <a class="b">26</a> commits</li>
+                    <li><image src="git-branch.svg" align="center"/> <a class="b">2</a> branches</li>
+                    <li><image src="tag.svg" align="center"/> <a class="b">0</a> releases</li>
+                    <li><image src="star.svg" align="center"/> <a class="b">1</a> contributor</li>
                 </ul>
             </div>
 
             <p>
                 <span id="button"><image src="git-compare.svg"></span>
-                <span id="branch"><a id="button">Branch: </a><a id="year">2016 ▼</a></span>
+                <span id="branch"><a id="button">Branch: </a><a id="year">2016 <image src="triangle-down.svg" align="center"/></a></span>
                 <span id="blue">WebDevCurriculum</span>
                 <span ><strong>/+ </strong></span>
-                <span id="icon">그림</span>
+                <span id="list"><image src="list-unordered.svg" width="20" height="12"/></span>
             </p>
 
 
             <li>This branch is 5 commits ahead of master.</li>
-            <li id="icon">Pull request Compare</li>
+            <li id="icon"><image src="git-pull-request.svg" align="center"/> Pull request <image src="diff.svg" align="center"/> Compare</li>
 
                 <li>This branch is 5 commits ahead of master.</li>
-                <li id="icon">Pull request Compare</li>
+
 
         </section>
 
         <section class="table1">
-            <table>
-                <tr>
+            <table style="border-collapse: collapse; width:700px;">
+                <tr class="dot">
                     <td>...</td>
-                </tr>
-                <tr>
-                    <td>Kivol authored 19 hours ago</td>
                     <td></td>
-                    <td>latest commit 5ead7a7a36 (아이콘)</td>
+                    <td></td>
+                </tr>
+                <tr class="kivol_class">
+                    <td id="kivol">
+                        <p><strong>Kivol</strong> authored 19 hours ago</p>
+                    </td>
+                    <td></td>
+                    <td id="latest commit">latest commit 5ead7a7a36 (아이콘)</td>
                 </tr>
                 <tr>
-                    <td>Part 0, git/<a href="#">Quest 0. Hello, git</a></td>
-                    <td>Quest 0 -Added checklist</td>
+                    >                        <td>Quest 0 -Added checklist</td>
                     <td>19 hours ago</td>
                 </tr>
                 <tr>
-                    <td><a href="#">old</a></td>
+                    <td>old</td>
+                    <td>New curriculum 2016 - started</td>
+                    <td>5 days ago</td>
+                </tr>
+                <tr id="license">
+                    <td > LICENSE</td>
                     <td>New curriculum 2016 - started</td>
                     <td>5 days ago</td>
                 </tr>
                 <tr>
-                    <td><a href="#">LICENSE</a></td>
-                    <td>New curriculum 2016 - started</td>
-                    <td>5 days ago</td>
-                </tr>
-                <tr>
-                    <td><a href="#">README.md</a></td>
+                    <td>README.md</td>
                     <td>...</td>
                     <td>19 hours ago</td>
                 </tr>
@@ -109,16 +112,13 @@
 
         <section class="table2">
             <table>
-                <tr>
-                    <td>
-                        README.md
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        KnowRe web development curriculum 2016
-                    </td>
-                </tr>
+                <p id="read">
+                    <strong>README</strong>.md
+                </p>
+
+                <p id="lastbox">
+                    <strong>KnowRe web development curriculum 2016</strong>
+                </p>
             </table>
         </section>
     </section>
@@ -126,22 +126,22 @@
     <aside>
         <section class="box">
             <ul>
-                <li id="code">Code</li>
-                <li>Issue<a class="button">0</a></li>
-                <li>Pull requests<a class="button">0</a></li>
+                <li id="code"><image src="code.svg" align="center"/> Code</li>
+                <li><image src="issue-opened.svg" align="center"/> Issue<a class="button">0</a></li>
+                <li><image src="git-pull-request.svg" align="center"/> Pull requests<a class="button">0</a></li>
                 <li id="line"></li>
-                <li>Pulse</li>
-                <li>Graphs</li>
+                <li><image src="pulse.svg" align="center"/> Pulse</li>
+                <li><image src="graph.svg" align="center"/> Graphs</li>
             </ul>
         </section>
 
         <section class="bottom">
             <ul>
                 <li> <strong>HTTPS</strong> clone URL
-                <li id="box">https://github.com</li></li>
+                <li id="box">https://github.com <image id="image=" src="clippy.svg"/></li>
                 <li>You can clone with <a class="blue">HTTPS</a> or <a class="blue">Subversion</a>. 물음표 </li>
-                <li class="button">Clone in Desktop</li>
-                <li class="button">Dowload ZIP</li>
+                <li class="button"><image src="desktop-download.svg" align="center"/> Clone in Desktop</li>
+                <li class="button"><image src="cloud-download.svg" align="center"/> Dowload ZIP</li>
             </ul>
         </section>
 
