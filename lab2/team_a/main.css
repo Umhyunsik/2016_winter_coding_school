@@ -5,17 +5,20 @@ header {background-color: #e9e9e9;
     padding-bottom:10px;
     float:top;
     margin-bottom:10px;
-    text-align: center;
+    /*text-align: center;*/
     word-spacing:20px;
     font-weight:bold;
 }
 
+header ul{
+    margin-left:150px;
+}
 
 #space{border:1px solid gray;
     border-radius: 5px;
     padding:3px;
     background-color: white;
-    margin-right:30px;
+    margin-right:20px;
 }
 
 #bar{
@@ -28,7 +31,7 @@ header {background-color: #e9e9e9;
 }
 
 #search{background-color:white;
-    word-spacing:100px;
+    word-spacing:80px;
     color:darkgray;
 }
 
@@ -38,7 +41,7 @@ header {background-color: #e9e9e9;
     background-image: linear-gradient(to bottom, #0ec505, #008d00);
     color:white;
     word-spacing:0px;
-    margin-left:80px;
+    margin-left:50px;
 }
 
 #in{border: 0.5px solid #a9a9a9;
