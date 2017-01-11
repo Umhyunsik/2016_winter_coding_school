@@ -2,13 +2,14 @@
 
 header {background-color: #e9e9e9;
     padding:1px;
-    padding-bottom:3px;
+    padding-bottom:10px;
     float:top;
-    margin-bottom:20px;
+    margin-bottom:10px;
     text-align: center;
     word-spacing:20px;
     font-weight:bold;
 }
+
 
 #space{border:1px solid gray;
     border-radius: 5px;
@@ -21,6 +22,7 @@ header {background-color: #e9e9e9;
     border-radius:2px;
     word-spacing:0px;
     font-weight:normal;
+    font-size:90%;
     text-align: center;
     background-color: lightgray;
 }
@@ -46,7 +48,7 @@ header {background-color: #e9e9e9;
     background-image: linear-gradient(to bottom, #f2f2f2, #e0e0e0);
 
 }
-{!---------------------------------↑위에는_헤더----------------------------------------}
+/*---------------------------------↑위에는_헤더----------------------------------------*/
 
 body{margin:0px;
     font-family:octicons;
@@ -56,50 +58,125 @@ ul li {display:inline;}
 mainheader li{display:inline;}
 section.main li {display:inline;}
 footer li{display:inline;}
-
+.main-detail{color: #4b4b4b;}
 
 div{
     margin-left:200px;
     padding:0px;
-    border:1px solid black;
+    /*border:1px solid black;*/
     font-size:90%;
     width:900px;
 }
 section.main{float:left;
-    border:1px dotted red;
+    /*border:1px dotted red;*/
     width:700px;
 }
+
+/*예훈*/
 
 mainheader{
     font-size:170%;
     margin-left:200px;
     margin-right:200px;
-
+    color:#5b5b5b;
 }
+hr{
+    border-top:0.3px solid lightgray;
+    border-bottom: 0px;
+}
+
 #k{
-    color: #1275ff;
+    color: #2f60d0;
 }
 
 #web{
-    color:#1275ff;
+    color:#2f60d0;
     font-weight:bold;
     margin-right:300px;
 }
 
+
 mainbox li{
-    border:1px solid gray;
+    border:1px solid #b1b1b1;
     border-radius:2px;
-    background-color:lightgray;
+    background-color: #efefef;
     padding:3px;
     font-size:50%;
+    font-weight:bold;
+    margin-right:-10px;
 }
-#num{
+.num{
     background-color:white;
-    margin-left:0px;
+    margin-right:0px;
 }
-box1 {
 
+#info{
+    border:1px solid gray;
+    border-bottom: 5px solid #f3db08;
+    width:700px;
+    margin-left: 0px;
 }
+
+#info li{
+    margin-left:40px;
+    margin-right:40px;
+}
+
+.b{
+    font-weight:bold;
+}
+
+p span{
+    color: #5b5b5b;
+    font-size:150%;
+}
+
+
+span#button{
+    color:white;
+    border:1px solid #008000;
+    border-radius:3px;
+    padding:3px;
+    background-color:#008000;
+    font-size:100%;
+}
+
+
+span#branch{
+    border:1px solid gray;
+    padding:3px;
+    padding-right:7px;
+    padding-left:7px;
+    border-radius:3px;
+    background-image: linear-gradient(to bottom, white, #d5d5d5);
+    font-size:100%;
+}
+
+a#button{
+    color: #696969;
+    font-size:90%;
+}
+
+a#year{
+    font-weight:bold;
+    font-size:90%;
+}
+
+span#blue{
+    font-size:150%;
+    color:#2f60d0;
+    font-weight:bold;
+}
+
+li#icon{
+    float: right;
+}
+
+
+/*예훈*/
+
+/*지희*/
+
 section.table1{
     border:1px solid blue;
     width:700px;
@@ -107,13 +184,91 @@ section.table1{
 section.table2{border:1px solid blue;
     width:700px;
 }
+/*지희*/
 
-aside{margin-left:710px;
-    border:1px;
+aside{
+    margin-top:50px;
+}
+
+aside li{
+    color:#2f60d0;
+    display:block;
+    margin-left:680px;
+    border-left:1px solid gray;
+    padding:10px;
+
+}
+.box ul a.button{
+    float:right;
+    margin-right:10px;
+    border:1px solid  #9f9f9f;
+    border-radius:50px;
+    color:black;
+    font-weight:bold;
+    background-color: #9f9f9f;
+}
+
+.box ul li#code{
+    font-weight:bold;
+    color:black;
+    border: 1px solid gray;
+    border-right: 5px solid #d02a10;
+    border-left:none;
+    border-top-right-radius:3px;
+    border-bottom-right-radius: 3px;
+}
+
+.box ul li#line{
+    border-bottom:1px solid gray;
+    padding-top:0px;
+}
+
+.bottom ul li{
+    font-size:90%;
+    border-left:none;
+    color:#5b5b5b;
+    padding:2px;
+}
+
+.bottom ul li strong{
+    color:black;
 
 }
 
-footer{text-align: center;
-    float:bottom;
-    margin-top:200px;
+.bottom ul li#box{
+    border:1px solid gray;
+    border-radius:3px;
+    font-family:Consolas;
+    font-size:90%;
+    padding-left:7px;
 }
+
+.bottom ul a.blue{
+    color:#2f60d0;
+}
+
+.bottom ul li.button{
+    text-align: center;
+    font-weight:bold;
+    color:black;
+    border: 1px solid gray;
+    border-radius:3px;
+    background-image: linear-gradient(to bottom, white, #d5d5d5);
+    margin-bottom:10px;
+}
+
+
+footer{
+    margin-left:200px;
+    margin-right:200px;
+    margin-top:50px;
+    color:#2f60d0;
+    padding-top:30px;
+    word-spacing:5px;
+    border-top:1px solid lightgray;
+}
+li#inc{
+    color:#4b4b4b;
+    word-spacing:0px;
+}
+
