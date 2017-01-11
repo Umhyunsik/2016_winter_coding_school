@@ -188,5 +188,83 @@ footer {
     text-align:center;}
 li{display:inline; }
 #git_logo { float: left;}
+
+main-header{
+    background-color:white;
+    font-size: 21px
+
+}
+
+main-header #image {
+    margin-top: 10px;
+}
+
+main-header .h_button{
+    float: right;
+    margin-right: 400px;
+    margin-top: 10px
+
+}
+
+#line{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-top: 5px;
+    font-size: 18px;
+    color:gray;
+    border-top: 1px solid #d9d9d9;
+}
+
+#box{
+    float: left;
+    margin: : 5px;
+    border: 1px solid #d9d9d9;
+    border-radius: 5px;
+    width: 1000px;
+}
+#box ul{
+    padding: 0px;
+    margin: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+#box li{
+    padding: 70px;
+    color:gray;
+}
+#statue_footer{
+    display:table;
+    width:1000px;
+    border:1px solid #ddd;
+}
+#statue_footer span{
+    background-color:#dae423;
+    line-height:7px;
+    display:table-cell;
+    text-indent:-9999px;
+}
+
+#btn{
+    margin-top: 50px;
+}
+
+#button_request {
+    padding: 2px 9px 2px 9px;
+    background: linear-gradient(#9FF584, #58C238);
+    border: 1px solid #5FC971;
+    border-radius: 3px;
+}
+
+#branch_button {
+    padding: 5px;
+}
+#button_list{
+    float: right;
+    margin-right: 585px;
+    padding: 2px 9px 2px 9px;
+    background: #E4E4E4;
+    border: 1px solid darkgrey;
+    border-radius: 3px;
+}
 </style>
 
