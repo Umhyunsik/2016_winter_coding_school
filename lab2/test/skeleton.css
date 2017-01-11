@@ -1,0 +1,463 @@
+* {
+    box-sizing:border-box;
+    text-decoration: none;
+}
+	/* TODO: 어떤 코드가 들어가야 할까요? */
+
+html {
+	/* TODO: 어떤 코드가 들어가야 할까요? */
+}
+
+body {
+	/* TODO: 어떤 코드가 들어가야 할까요? */
+}
+
+a:visited {
+    text-decoration: none;
+    color: #212121;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: red;
+}
+
+/*표준희*/
+.nav_header {
+    margin-top: -10px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    background-color: #f5f5f5;
+    display: block;
+    border-bottom:1px solid #d9d9d9;
+}
+
+.nav_header>#git_logo {
+    float: left;
+    margin-left: 125px;
+    margin-right: 20px;
+}
+
+header p {
+
+    display: inline;
+    float: left;
+    margin-top: -2px;
+    border:1px solid #d9d9d9;
+    color: #9e9e9e;
+    background-color: white;
+    border-radius: 6px;
+    padding: 6px;
+}
+
+.nav_header span {
+    background-color: #f5f5f5;
+    padding: 4px 5px 3px 5px;
+    border-radius: 3px;
+
+}
+
+.search {
+    border: hidden;
+    /*border-left: 100px;*/
+    width: 350px;
+    font-size: 14px;
+}
+
+.nav ul {
+    float: left;
+}
+
+.nav {
+    display: inline;
+    margin-left: -10px;
+    margin-right: 30px;
+    text-decoration: dashed;
+}
+
+header button {
+    padding: 7px 12px 7px 12px;
+    border-radius: 3px;
+    background-color: #fafafa;
+    border: 1px solid #8FCAAF;
+}
+
+#nav_button_01 {
+    padding: 7px 12px 7px 12px;
+    margin-left: 70px;
+    background: linear-gradient(#9FF584, #58C238);
+    border: 1px solid #5FC971;
+    color: white;
+    font-size: 14px;
+    text-align: center;
+}
+
+#nav_button_02 {
+    background: linear-gradient(#FBFCFC, #F0EEEE);
+    border: 1px solid #e6e6e6;
+    font-size: 14px;
+    text-align: center;
+}
+
+/*표준희*/
+/* 조용걸 */
+.octicon_right_icon{
+    margin-bottom:-5px;
+}
+.rightEditText input{
+    margin-bottom:20px;
+    padding-left:10px;
+    width:170px;
+    height:20px;
+    border: 1px solid #e3e3e3;
+}
+#background{
+    background-color: gray;
+}
+.span_color{
+    color:powderblue;
+}
+.main-detail{
+    display :flex;
+    width:1250px;
+    margin-left:125px;
+    margin-right:125px;
+}
+aside{
+    margin-left: 20px;
+    width: 200px;
+}
+#Top>h3{
+  padding-left:20px;
+}
+#Top{
+    font-size:13px;
+    border: 1px solid #ddd;
+    margin : 2px;
+}
+#mid1{
+    color:#68777d;
+    font-size:13px;
+    border: 1px solid #ddd;
+    margin : 2px;
+}
+#mid2{
+    color:#68777d;
+    font-size:13px;
+    border: 1px solid #ddd;
+    margin : 2px;
+}
+#asidep{
+    padding-left:10px;
+    align-items:center;
+    font-size:13px;
+    color:#68777d;
+}
+#URL{
+    color:#68777d;
+    font-size:13px;
+    margin:10px;
+    width:140px;
+}
+#span_color{
+    color:blue;
+}
+.form-control{
+    display: inline;
+}
+.URLButton{
+    display: inline;
+}
+#button_div{
+    margin-left:10px;
+}
+#button1{
+  font-size:13px;
+  text-align: center;
+  width:190px;
+  margin-top:10px;
+  margin-bottom:10px;
+  font-weight:bold;
+}
+#button2{
+  font-size:13px;
+  text-align: center;
+  width:190px;
+  font-weight:bold;
+}
+#aside_text{
+  margin-left:10px;
+}
+/*조용걸*/
+
+/*이민구*/
+#left_header{
+    margin:20px 0px 20px 0px;
+    font-size:20px;
+    color: #888;
+}
+.left_layout{
+    float:left;
+}
+.right-layout{
+    float:right;
+}
+.a_style{
+    text-decoration:none;
+}
+.margin_right{
+    margin-right:15px;
+}
+.main_floating_left{
+    width:80%;
+}
+.font_size{
+    font-size:14px;
+}
+.font_size_12{
+    font-size:12px;
+}
+.font_size_18{
+    font-size:18px;
+}
+#statue_div{
+    height:41px;
+    position:relative;
+    border:1px solid #ddd;
+    border-radius:3px 3px 0 0;
+    border-bottom:0px;
+    margin-bottom:0;
+}
+#statue_ul{
+    display:table;
+    table-layout: fixed;
+    list-style-type: disc;
+    padding-left:0;
+    margin-top:0;
+    margin-bottom:0;
+    width:100%;
+}
+#statue_ul li{
+    display:table-cell;
+    padding:10px;
+    text-align:center;
+    white-space:nowrap;
+}
+.svg_color_white{
+    fill:white;
+}
+.svg_color_gray{
+    fill:#888;
+}
+.svg_style{
+    vertical-align:text-bottom;
+}
+#statue_footer{
+    display:table;
+    width:100%;
+    border:1px solid #ddd;
+}
+#statue_footer span{
+    background-color:#dae423;
+    line-height:8px;
+    display:table-cell;
+    text-indent:-9999px;
+}
+.file_navigation{
+    margin-top:15px;
+    margin-bottom:10px;
+}
+.btn_style{
+    vertical-align:middle;
+    font-size:12px;
+    position:relative;
+    display:inline-block;
+    background-color:#eee;
+    border:1px solid #d5d5d5;
+    border-radius:3px;
+    padding:3px 10px;
+    margin-right:5px;
+    line-height:20px;
+}
+.btn_color{
+    background-image:linear-gradient(#6cc644,#44ca23);
+}
+.branch_info{
+    color:#888;
+    padding:8px;
+    border:solid #ddd;
+    background-color:#fafafa;
+    border-width:1px 1px 0;
+    border-top-left-radius:3px;
+    border-top-right-radius:3px;
+}
+.recent_commit_1{
+    position:relative;
+    padding:10px;
+    margin-bottom:-1px;
+    font-size:13px;
+    line-height:20px;
+    color:#68777d;
+    background-color:#f2f9fc;
+    border:1px solid #c9e6fe;;
+}
+.recent_commit_2{
+    padding:8px;
+    border:solid #ddd;
+    background-color:#fafafa;
+    border-width:0 1px 1px;
+    border-top-left-radius:3px;
+    border-top-right-radius:3px;
+}
+.img_size{
+    height:16px;
+    width:16px;
+    vertical-align:text-bottom;
+}
+.table_div{
+    display:block;
+    margin-bottom:10px;
+    border:1px solid #ddd;
+    border-top:0;
+    border-bottom-right-radius:3px;
+    border-bottom-left-radius:3px;
+}
+table{
+    width:100%;
+    background:#fff;
+    border-radius:2px;
+    border-spacing:0;
+    border-collapse:collapse;
+    display:table;
+    border-color:grey;
+}
+tbody{
+    display:table-row-group;
+    vertical-align:middle;
+    border-color:inherit;
+}
+tr{
+    display:table-row;
+    vertical-align:inherit;
+    border-color:inherit;
+}
+td{
+    padding:6px 3px;
+    line-height:20px;
+    border-top:1px solid #eee;
+    display:table-cell;
+    vertical-align:inherit;
+}
+.font_color_gray{
+    color:#888;
+}
+.file_icon{
+    width:17px;
+    padding-right:2px;
+    padding-left:10px;
+    color:#767676;
+}
+.file_name{
+    max-width:180px;
+    color:#888;
+}
+.commit_name{
+    max-width:442px;
+    padding-left:10px;
+    overflow:hidden;
+    color:#888;
+}
+.commit_time{
+    width:125px;
+    padding-right:10px;
+    color:#888;
+    text-align:right;
+}
+.open_file{
+    display:block;
+    position:relative;
+    margin_bottom:30px;
+    border-radius:3px;
+
+}
+.open_file span{
+    display:block;
+    padding:9px 10px 10px;
+    margin:0;
+    font-size:14px;
+    line-height:17px;
+    background-color:#f5f5f5;
+    border:1px solid #d8d8d8;
+    border-bottom:0;
+    border-radius:3px 3px 0 0;
+    font-weight:600;
+}
+article{
+    padding:45px;
+    background-color:#fff;
+    border:1px solid #ddd;
+    border-bottom-right-radius:3px;
+    border-bottom-left-radius:3px;
+    line-height:1.5;
+    font-size:40px;
+}
+
+/*이민구*/
+/*조수민*/
+.main-header{
+    padding: 20px 0px 20px 5px;
+    color: #42A5F5;
+    display: block;
+    border-bottom: 1px solid #d9d9d9;
+    font-size: 25px;
+}
+
+.main-header>span {
+    margin-left: 120px;
+}
+.bu{
+    float: right;
+    margin-right: 200px;
+    }
+/*표준희*/
+footer {
+    display: inline-flex;
+    border-top:1px solid #d8d8d8;
+    margin-top: 50px;
+}
+
+.foot {
+    margin-left: 100px;
+    text-decoration: none;
+}
+.left li{
+    float: left;
+    display: inline;
+    margin-top: 40px;
+    padding-left: 10px;
+}
+
+.left a {
+    color: #42A5F5;
+}
+
+.center {
+    position: absolute;
+    top: 840px;
+    left: 50%;
+}
+.right ul {
+    margin-left: 450px;
+
+}
+.right li{
+    float: right;
+    display: inline;
+    margin-top: 40px;
+    padding-right: 10px;
+}
+
+.right a {
+    color: #42A5F5;
+}
+/*표준희*/
