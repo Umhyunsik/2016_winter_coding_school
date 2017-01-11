@@ -116,25 +116,18 @@ section.table1 {
 }
 .table1 table tr.kivol_class{
     background-color:lightgray;
+    height:20px;
+
 }
 
-.table1 table tr {
-    border-bottom : 1px solid #7d7d7d;
+#read{
+    background-color: #dddddd;
+    border:1px solid #b0b0b0;
 }
+#lastbox{
+    font-size: 200%;
 
-
-/*.li#bold{*/
-     /*font-weight: 300;*/
-section.table2{
-    margin-top: 20px;
-    border:1px solid black;
-    width:700px;
 }
-section.table2{
-    border:1px solid lightgray;
-}
-
-
 /*지희*/
 
 aside{margin-left:710px;
