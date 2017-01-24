@@ -71,11 +71,11 @@ section{
     float:left;
     color: black;
     background-color: ;
-    width: 1250px;
-    margin-left:200px;
-    margin-right:20px;
+    width: 800px;
 
-    text-align:center}
+    margin-right:20px;
+    mragin-left:75px;
+        text-align:center}
 
 .six { border:1px ridge #d9d9d9;
     border-radius:5px;
@@ -100,6 +100,73 @@ div.oneone{background-color:gray;
 
 
 
+
+.right {
+    float: right;
+    margin-right: 10px;
+}
+.gre{
+    background-color: whitesmoke;
+    border-bottom: 1px solid 	#c8c8c8;
+}
+.sky {
+    background-color:#EBF5FF;
+    border-bottom: 1px solid 	#c8c8c8;
+}
+.line{
+    border-bottom: 1px solid 	#c8c8c8;
+}
+.center {
+    text-align: center;
+    margin-left: 80px;
+}
+.center2 {
+    margin-left: 220px;
+}
+.center3 {
+    margin-left: 193px;
+}
+.center4 {
+    margin-left: 170px;
+}
+.font {
+    color: #8282EB;
+}
+.alone{
+    color: black;
+}
+.entire{
+    text-align: left;
+    border: 1px solid 	#c8c8c8;
+    width: 650px;
+    margin-left: 150px;
+    border-radius: 3px;
+    margin-top: 10px;
+    font-size: 12px;
+    color: #828282;
+}
+.entire2 {
+    text-align: left;
+    border: 1px solid #c8c8c8;
+    width: 650px;
+    margin-left: 150px;
+    border-radius: 3px;
+    margin-top: 10px;
+    font-size: 12px;
+    color: black;
+}
+.power {
+    font-size: 33px;
+    height: 120px;
+
+
+}
+.hi{
+    border-top: 1px solid #c8c8c8;
+    color: white;
+    font-size: 20px;
+}
+
 aside {
     background-color: white;
     color:black;
@@ -123,3 +190,4 @@ li{display:inline; }
 #git_logo { float: left;
 margin-right:10px;}
 </style>
+
