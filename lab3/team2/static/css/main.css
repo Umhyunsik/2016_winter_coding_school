@@ -1,4 +1,13 @@
 body {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.navbar {
+    margin-bottom: 20px;
+}
+
+body {
     font-family: "Lato", sans-serif;
     transition: background-color .5s;
 }
