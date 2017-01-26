@@ -84,11 +84,11 @@ body {
     margin-top: 0;
 }
 
-
+.search{margin-left:17px;}
 /*
  * Placeholder dashboard ideas
  */
-
+.selected{background-color:gray;}
 .placeholders {
     margin-bottom: 30px;
     text-align: center;
