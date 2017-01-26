@@ -172,7 +172,7 @@ aside {
     color:black;
     width: 225px;
     float:right;
-
+    margin-top:10px;
     margin-right: 200px;
 
     border-style:none}
@@ -187,6 +187,7 @@ footer {
     clear: both;
     text-align:center;}
 li{display:inline; }
+<<<<<<< HEAD
 #git_logo { float: left;}
 
 main-header{
@@ -266,5 +267,9 @@ main-header .h_button{
     border: 1px solid darkgrey;
     border-radius: 3px;
 }
+=======
+#git_logo { float: left;
+margin-right:10px;}
+>>>>>>> 1c89d1732ade95466151a7c0b24a9afef29bae32
 </style>
 
