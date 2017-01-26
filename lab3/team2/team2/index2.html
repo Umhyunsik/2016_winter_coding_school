@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -11,62 +12,67 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" type="text/css" href="./static/css/main.css">
+    <link rel="stylesheet" type="text/css" href="main2.css">
 </head>
 
 <body>
 
-    <div class="container">
-        <nav class="navbar navbar-default">
-            <div class="container-fluid">
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                    <a class="navbar-brand" href="#">&#9776;</a>
-                </div>
-                <div id="navbar" class="navbar-collapse collapse">
-                    <ul class="nav navbar-nav">
-                        <li><a href="#">OneDrive</a></li>
-                    </ul>
-                    <ul class="nav navbar-nav navbar-right">
-                        <li><a href="./"><i class="fa fa-commenting" aria-hidden="true"></i> </a></li>
-                        <li><a href="./"><i class="fa fa-question" aria-hidden="true"></i> </a></li>
-                        <li><a href="./">Umhyunsik &nbsp; </a></li>
-                        <li><a href="./"></li>
-                        <i class="fa a-user-circle-o" aria-hidden="true"></i></a></li>
-                    </ul>
-                </div><!--/.nav-collapse -->
-            </div><!--/.container-fluid -->
-        </nav>
 
-        <div class="jumbotron">
-<ul class="nav nav-tabs">
-    <li class="active"><a href="#">Home</a></li>
+<nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">&#9776;</a>
+            <a class="navbar-brand" href="#">OneDrive</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="./"><i class="fa fa-commenting" aria-hidden="true"></i> </a></li>
+                <li><a href="./"><i class="fa fa-question" aria-hidden="true"></i> </a></li>
+                <li><a href="./">Umhyunsik &nbsp; </a></li>
+                <li><a href="./">
+                <i class="fa a-user-circle-o" aria-hidden="true"></i></a></li>
+            </ul>
 
-            <div class="frame">
-                <div id="mySidenav" class="sidenav">
-                    <div id="like">
-                        <input value="모두검색">
-                    </div>
-
-                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-                    <a class="onedrive" href="">OneDrive</a>
-                    <a href="">파일</a>
-                    <a href="#">최근항목</a>
-                    <a href="#">사진</a>
-                    <a href="#">공유됨</a>
-
-                </div>
-                ---->
-                </ul>
-                <div id="main">
+        </div>
+    </div>
+</nav>
 
 
-                    <table class="tab table table-hover table-responsive">
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-sm-3 col-md-2 sidebar">
+            <ul class="nav nav-sidebar">
+                <li class="active"><a href="#">Overview <span class="sr-only">(current)</span></a></li>
+                <li><a href="#">Reports</a></li>
+                <li><a href="#">Analytics</a></li>
+                <li><a href="#">Export</a></li>
+            </ul>
+            <ul class="nav nav-sidebar">
+                <li><a href="">Nav item</a></li>
+                <li><a href="">Nav item again</a></li>
+                <li><a href="">One more nav</a></li>
+                <li><a href="">Another nav item</a></li>
+                <li><a href="">More navigation</a></li>
+            </ul>
+            <ul class="nav nav-sidebar">
+                <li><a href="">Nav item again</a></li>
+                <li><a href="">One more nav</a></li>
+                <li><a href="">Another nav item</a></li>
+            </ul>
+        </div>
+        <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
+
+
+            <h2 class="sub-header">Section title</h2>
+            <div class="table-responsive">
+                <table class="table table-striped">
+
                         <thead>
                         <tr>
                             <th class="little">&nbsp;<i class="fa fa-angle-down" aria-hidden="true"></i></th><th class="wide"><i class="fa fa-arrow-up" aria-hidden="true"></i>이름</th><th class="small">수정한 날짜</th><th class="small">공유</th><th class="small">크기</th>
@@ -112,18 +118,24 @@
                         </tbody>
                     </table>
                     <button>Remove </button>
-                </div>
             </div>
-
         </div>
+    </div>
+</div>
 
-
-
-
-
-
-<script type="text/javascript" src="./static/js/main.js"></script>
-
+<!-- Bootstrap core JavaScript
+================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+<script src="../../dist/js/bootstrap.min.js"></script>
+<!-- Just to make our placeholder images work. Don't actually copy the next line! -->
+<script src="../../assets/js/vendor/holder.min.js"></script>
+<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+<script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+<script>$('button').click(function(){
+    $("table input[type='checkbox']:checked").parent().parent().remove();
+});
+</script>
 </body>
 </html>
-
