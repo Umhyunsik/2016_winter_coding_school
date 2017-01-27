@@ -24,6 +24,14 @@ body {
 .navbar-fixed-top {
     border: 0;
 }
+/*Container  국민지----part*/
+
+
+.container{
+    text-decoration: none;
+    color: #111111;
+}
+
 
 /*
  * Sidebar
