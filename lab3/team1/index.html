@@ -3,9 +3,9 @@
 <head>
     <link rel="stylesheet" type="text/css"
           href="main.css">
-    <link href="css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
+    <script src="js/jquery-3.1.1.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
 
     <meta charset="UTF-8">
@@ -14,64 +14,27 @@
 </head>
 <body>
 
-<script src="js/jquery-3.1.1.js"></script>
-<script src="js/bootstrap.min.css.js"></script>
 
 <div class="row">
     <nav class="navbar navbar-inverse">
         <div class="container-fluid">
             <div class="navbar-header">
-                <div class="col-lg-12 col-md-12">
-                    <header>
-
-                        <ul class="nav navbar-nav">
-
-                            <li><a href="#"><span class="glyphicon glyphicon-menu-hamburger"></span></a></li>
-                            <li><a href="#">OneDrive</a></li>
-                            <li class="button"><a href="#"><span class="glyphicon glyphicon-comment"></span></a></li>
-                            <li class="button"><a href="#"><span class="glyphicon glyphicon-cog"></span></a></li>
-                            <li class="button"><a href="#"><span class="glyphicon glyphicon-question-sign"></span></a></li>
-                            <li class="button"><a href="#"><span class="glyphicon glyphicon-user"></span></a></li>
-
-                        </ul>
-
-                    </header>
-                </div>
+                <a class="navbar-brand" href="#"><span class="glyphicon glyphicon-menu-hamburger"></span></a>
+                <a class="navbar-brand" href="#">OneDrive</a>
             </div>
+                    <header>
+                                <ul class="nav navbar-nav  navbar-right">
+                                    <li class="button"><a href="#"><span class="glyphicon glyphicon-comment"></span></a></li>
+                                    <li class="button"><a href="#"><span class="glyphicon glyphicon-cog"></span></a></li>
+                                    <li class="button"><a href="#"><span class="glyphicon glyphicon-question-sign"></span></a></li>
+                                    <li class="button"><a href="#"><span class="glyphicon glyphicon-user"></span></a></li>
+                                </ul>
+                    </header>
         </div>
     </nav>
 
 
     <div class="col-lg-12 col-md-12">
-
-        <!--<ul class="header_bar">-->
-
-        <!--<div class="dropdown">-->
-        <!--<button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">-->
-        <!--새로만들기-->
-        <!--<span class="glyphicon glyphicon-menu-down"></span>-->
-        <!--</button>-->
-        <!--<ul class="dropdown-menu" aria-labelledby="dropdownMenu1">-->
-        <!--<li><a href="#">Action</a></li>-->
-        <!--<li><a href="#">Another action</a></li>-->
-        <!--<li><a href="#">Something else here</a></li>-->
-
-        <!--</ul>-->
-        <!--</div>-->
-        <!--<div class="dropdown">-->
-        <!--<button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">-->
-        <!--업로드-->
-        <!--<span class="glyphicon glyphicon-menu-down"></span>-->
-        <!--</button>-->
-        <!--<ul class="dropdown-menu" aria-labelledby="dropdownMenu1">-->
-        <!--<li><a href="#">Action</a></li>-->
-        <!--<li><a href="#">Another action</a></li>-->
-        <!--<li><a href="#">Something else here</a></li>-->
-
-        <!--</ul>-->
-        <!--</div>-->
-        <!--<li class="button"><a href="#">새로만들기<span class="glyphicon glyphicon-menu-down"></span></a></li>-->
-        <!--<li class="button"><a href="#">업로드<span class="glyphicon glyphicon-menu-down"></span></a></li>-->
 
     </div>
 
@@ -105,7 +68,8 @@
                 <ul class="header_bar">
 
                     <div class="dropdown">
-                        <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                        <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
                             새로만들기
                             <span class="glyphicon glyphicon-menu-down"></span>
                         </button>
@@ -113,9 +77,9 @@
                             <li><a href="#">Action</a></li>
                             <li><a href="#">Another action</a></li>
                             <li><a href="#">Something else here</a></li>
-
                         </ul>
                     </div>
+
                     <div class="dropdown">
                         <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
                             업로드
