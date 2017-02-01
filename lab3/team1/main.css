@@ -1,24 +1,36 @@
 .header li{
     display :inline;
     border : 1px solid black;
-    color: #efefef;;
+    color: #efefef;
 }
-
+.header_bar {
+    background-color: lightgray;
+    float:top;
+    margin-top: 0px;
+}
 .header_bar li{
     display :inline;
-    border : 1px solid black;
-}
 
+}
+.dropdown{
+    position:relative;
+    display:inline;
+}
 .index{
-    border: 1px dashed black;
-    float: left;
-}
 
+    background-color: white;
+
+}
+.index li{
+    list-style-type: none;
+}
 p{
-    border :1px solid red;
+    border :1px solid blue;
 }
 
-
+#search_all{
+    float:top;
+}
 p.upload_file{
     text-align: center;
 }
