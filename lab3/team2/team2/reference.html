@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Navbar Template for Bootstrap</title>
+    <title>Team2 Lab3 | OneDrive Mockup</title>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
@@ -65,8 +65,7 @@
             </ul>
 
         </div>
-
-<!--민지part-->
+<!--민지 part-->
         <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main" style="background-color:#f5f5f5;">
 
 
@@ -101,7 +100,6 @@
         <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main" style="background-color:#ffff;">
 
 
-        <!------>
         <h2 class="sub-header">파일</h2>
             <div class="table-responsive">
                 <table class="table table-hover">
@@ -113,9 +111,6 @@
                         </thead>
                         <tbody>
                         <tr>
-
-
-
                             <td><input type="checkbox"></td><td class="wide"><i class="fa fa-folder" aria-hidden="true"></i>Email attachments</td><td>2017.1.4</td><td></td><td></td>
                         </tr>
                         <tr class="mouseover">
@@ -152,7 +147,7 @@
                     </table>
                     <button>Remove </button>
             </div>
-
+        </div>
     </div>
 </div>
 
@@ -168,12 +163,29 @@
 <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
 <script>
 $(document).ready(function(){
+
+    $(".tab2").hide();
+
+    $("input:checkbox").click(function(){
+        $(".tab").hide();
+        $(".tab2").show();
+    });
+
+
+
     $("input:checkbox").click(function() {
         if($(this).prop("checked")){
-        $(this).parent().parent().fadeOut();}
+            $(this).parent().parent().addClass('active');
+        }
+        else{
+             $(this).parent().parent().removeClass('active');
+        }
+    });
 
+    $('button').click(function(){
+        $("table input[type='checkbox']:checked").parent().parent().remove();
+    });
 
-    })
 })
 </script>
 </body>
